@@ -1,0 +1,1 @@
+# MyEverydayApp - your organizer widgets.
