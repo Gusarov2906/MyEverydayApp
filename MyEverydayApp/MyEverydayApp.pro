@@ -16,6 +16,7 @@ HEADERS += \
     mainwindow.h
 
 FORMS += \
+    WeatherWidget.ui \
     mainwindow.ui
 
 TRANSLATIONS += \
