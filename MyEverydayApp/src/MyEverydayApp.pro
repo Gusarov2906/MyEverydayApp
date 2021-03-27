@@ -9,16 +9,37 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    CompanySharesWidget.cpp \
+    CurrentExchangeRateWidget.cpp \
+    NewsWidget.cpp \
+    NotesWidget.cpp \
+    TimeAndDateWidget.cpp \
+    WeatherTodayWidget.cpp \
+    WeatherWeeklyWidget.cpp \
+    WelcomeWidget.cpp \
     main.cpp \
-    mainwindow.cpp \
-    weatherwidget.cpp
+    mainwindow.cpp
 
 HEADERS += \
-    mainwindow.h \
-    weatherwidget.h
+    CompanySharesWidget.h \
+    CurrentExchangeRateWidget.h \
+    NewsWidget.h \
+    NotesWidget.h \
+    TimeAndDateWidget.h \
+    WeatherTodayWidget.h \
+    WeatherWeeklyWidget.h \
+    WelcomeWidget.h \
+    mainwindow.h
 
 FORMS += \
-    WeatherWidget.ui \
+    CompanySharesWidget.ui \
+    CurrentExchangeRateWidgetui.ui \
+    NewsWidget.ui \
+    NotesWidget.ui \
+    TimeAndDateWidget.ui \
+    WeatherTodayWidget.ui \
+    WeatherWeeklyWidget.ui \
+    WelcomeWidget.ui \
     mainwindow.ui
 
 TRANSLATIONS += \
@@ -28,3 +49,6 @@ TRANSLATIONS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    Icons.qrc
