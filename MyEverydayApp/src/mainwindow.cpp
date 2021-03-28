@@ -3,6 +3,7 @@
 #include "WeatherTodayWidget.h"
 #include "WelcomeWidget.h"
 #include "NotesWidget.h"
+#include "TimeAndDateWidget.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow)
@@ -14,6 +15,8 @@ MainWindow::MainWindow(QWidget *parent)
     lay01->addWidget(new WeatherTodayWidget(ui->widget01));
     QVBoxLayout* lay02 = new QVBoxLayout(ui->widget02);
     lay02->addWidget(new NotesWidget(ui->widget02));
+    QVBoxLayout* lay10 = new QVBoxLayout(ui->widget10);
+    lay10->addWidget(new TimeAndDateWidget(ui->widget10));
 }
 
 MainWindow::~MainWindow()
