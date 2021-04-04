@@ -4,6 +4,8 @@
 #include "WelcomeWidget.h"
 #include "NotesWidget.h"
 #include "TimeAndDateWidget.h"
+#include "CompanySharesWidget.h"
+#include "WeatherWeeklyWidget.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow)
@@ -17,6 +19,10 @@ MainWindow::MainWindow(QWidget *parent)
     lay02->addWidget(new NotesWidget(ui->widget02));
     QVBoxLayout* lay10 = new QVBoxLayout(ui->widget10);
     lay10->addWidget(new TimeAndDateWidget(ui->widget10));
+    QVBoxLayout* lay11 = new QVBoxLayout(ui->widget11);
+    lay11->addWidget(new CompanySharesWidget(ui->widget11));
+    QVBoxLayout* lay12 = new QVBoxLayout(ui->widget12);
+    lay12->addWidget(new WeakherWeeklyWidget(ui->widget12));
 }
 
 MainWindow::~MainWindow()

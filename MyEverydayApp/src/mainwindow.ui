@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1350</width>
+    <width>1300</width>
     <height>830</height>
    </rect>
   </property>
@@ -18,7 +18,7 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>1350</width>
+    <width>1300</width>
     <height>830</height>
    </size>
   </property>
@@ -111,7 +111,7 @@
              <item row="0" column="0">
               <widget class="QFrame" name="frame00">
                <property name="sizePolicy">
-                <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                  <horstretch>0</horstretch>
                  <verstretch>0</verstretch>
                 </sizepolicy>
@@ -124,8 +124,8 @@
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>600</width>
-                 <height>600</height>
+                 <width>500</width>
+                 <height>500</height>
                 </size>
                </property>
                <property name="frameShape">
@@ -139,7 +139,7 @@
                  <number>0</number>
                 </property>
                 <property name="sizeConstraint">
-                 <enum>QLayout::SetNoConstraint</enum>
+                 <enum>QLayout::SetDefaultConstraint</enum>
                 </property>
                 <property name="leftMargin">
                  <number>0</number>
@@ -163,8 +163,8 @@
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>600</width>
-                    <height>600</height>
+                    <width>400</width>
+                    <height>400</height>
                    </size>
                   </property>
                   <property name="contextMenuPolicy">
@@ -185,8 +185,8 @@
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>600</width>
-                 <height>600</height>
+                 <width>500</width>
+                 <height>500</height>
                 </size>
                </property>
                <property name="frameShape">
@@ -221,8 +221,8 @@
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>600</width>
-                    <height>600</height>
+                    <width>400</width>
+                    <height>400</height>
                    </size>
                   </property>
                  </widget>
@@ -240,8 +240,8 @@
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>600</width>
-                 <height>600</height>
+                 <width>500</width>
+                 <height>500</height>
                 </size>
                </property>
                <property name="frameShape">
@@ -255,7 +255,7 @@
                  <number>0</number>
                 </property>
                 <property name="sizeConstraint">
-                 <enum>QLayout::SetMinimumSize</enum>
+                 <enum>QLayout::SetDefaultConstraint</enum>
                 </property>
                 <property name="leftMargin">
                  <number>0</number>
@@ -279,8 +279,8 @@
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>600</width>
-                    <height>600</height>
+                    <width>400</width>
+                    <height>400</height>
                    </size>
                   </property>
                  </widget>
@@ -293,13 +293,13 @@
                <property name="minimumSize">
                 <size>
                  <width>400</width>
-                 <height>400</height>
+                 <height>397</height>
                 </size>
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>600</width>
-                 <height>600</height>
+                 <width>500</width>
+                 <height>500</height>
                 </size>
                </property>
                <property name="frameShape">
@@ -334,8 +334,8 @@
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>600</width>
-                    <height>600</height>
+                    <width>400</width>
+                    <height>400</height>
                    </size>
                   </property>
                  </widget>
@@ -353,8 +353,8 @@
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>600</width>
-                 <height>600</height>
+                 <width>500</width>
+                 <height>500</height>
                 </size>
                </property>
                <property name="frameShape">
@@ -389,8 +389,8 @@
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>600</width>
-                    <height>600</height>
+                    <width>400</width>
+                    <height>400</height>
                    </size>
                   </property>
                  </widget>
@@ -414,8 +414,8 @@
                </property>
                <property name="maximumSize">
                 <size>
-                 <width>600</width>
-                 <height>600</height>
+                 <width>500</width>
+                 <height>500</height>
                 </size>
                </property>
                <property name="frameShape">
@@ -450,8 +450,8 @@
                   </property>
                   <property name="maximumSize">
                    <size>
-                    <width>600</width>
-                    <height>600</height>
+                    <width>400</width>
+                    <height>400</height>
                    </size>
                   </property>
                  </widget>
@@ -575,7 +575,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1350</width>
+     <width>1300</width>
      <height>22</height>
     </rect>
    </property>
