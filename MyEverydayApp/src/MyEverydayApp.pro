@@ -9,6 +9,7 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    AbstractWidget.cpp \
     CompanySharesWidget.cpp \
     CurrentExchangeRateWidget.cpp \
     NewsWidget.cpp \
@@ -17,10 +18,12 @@ SOURCES += \
     WeatherTodayWidget.cpp \
     WeatherWeeklyWidget.cpp \
     WelcomeWidget.cpp \
+    WidgetCreator.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
+    AbstractWidget.h \
     CompanySharesWidget.h \
     CurrentExchangeRateWidget.h \
     NewsWidget.h \
@@ -29,6 +32,7 @@ HEADERS += \
     WeatherTodayWidget.h \
     WeatherWeeklyWidget.h \
     WelcomeWidget.h \
+    WidgetCreator.h \
     mainwindow.h
 
 FORMS += \

@@ -14,7 +14,11 @@ MainWindow::MainWindow(QWidget *parent)
     QVBoxLayout* lay00 = new QVBoxLayout(ui->widget00);
     lay00->addWidget(new WelcomeWidget(ui->widget00));
     QVBoxLayout* lay01 = new QVBoxLayout(ui->widget01);
-    lay01->addWidget(new WeatherTodayWidget(ui->widget01));
+
+    WeatherTodayWidget* wtw = new WeatherTodayWidget();
+    wtw->init();
+    lay01->addWidget(wtw->getWidget());
+    //wtw->deinit();
     QVBoxLayout* lay02 = new QVBoxLayout(ui->widget02);
     lay02->addWidget(new NotesWidget(ui->widget02));
     QVBoxLayout* lay10 = new QVBoxLayout(ui->widget10);

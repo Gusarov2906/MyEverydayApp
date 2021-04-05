@@ -3,19 +3,24 @@
 
 #include <QObject>
 #include <QWidget>
+#include "AbstractWidget.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class WeatherTodayWidget; }
 QT_END_NAMESPACE
 
-class WeatherTodayWidget: public QWidget
+class WeatherTodayWidget: public AbstractWidget
 {
-    Q_OBJECT
+    //Q_OBJECT
 public:
-    WeatherTodayWidget(QWidget *parent = nullptr);
-    ~WeatherTodayWidget(){};
-
+    WeatherTodayWidget();
+    ~WeatherTodayWidget();
+    void init() override;
+    void deinit() override;
+    QWidget* getWidget() override;
+    void test();
 private:
+    QWidget* widget;
     Ui::WeatherTodayWidget *ui;
 };
 

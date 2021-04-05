@@ -1,8 +1,31 @@
 #include "WeatherTodayWidget.h"
-#include "ui_WeatherTodayWidget.h"
+#include "ui_WeatherTodayWidget.h"	
+#include <unistd.h>
 
-WeatherTodayWidget::WeatherTodayWidget(QWidget *parent):
-    QWidget(parent), ui(new Ui::WeatherTodayWidget)
+WeatherTodayWidget::WeatherTodayWidget(): ui(new Ui::WeatherTodayWidget)
 {
-    ui->setupUi(this);
+
 }
+
+void WeatherTodayWidget::init()
+{
+    widget = new QWidget();
+    ui->setupUi(widget);
+}
+
+void WeatherTodayWidget::deinit()
+{
+    //widget->deleteLater();
+}
+
+QWidget* WeatherTodayWidget::getWidget()
+{
+    return widget;
+}
+
+WeatherTodayWidget::~WeatherTodayWidget()
+{
+    delete ui;
+    delete widget;
+}
+
