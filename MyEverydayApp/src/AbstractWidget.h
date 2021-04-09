@@ -4,12 +4,13 @@
 #include <memory>
 #include <QObject>
 #include <QSize>
+#include <QPoint>
 
 class AbstractWidget: public QObject
 {
     Q_OBJECT
 public:
-    virtual void init() = 0;
+    virtual void init(QWidget* parents) = 0;
     virtual void deinit() = 0;
     virtual QWidget* getWidget() = 0;
 protected:
@@ -17,6 +18,8 @@ protected:
     int id;
     QSize minSize;
     QSize maxSize;
+    QSize curSize;
+    QPoint position;
 };
 
 #endif // WIDGET_H

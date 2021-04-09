@@ -13,9 +13,10 @@ class WeatherTodayWidget: public AbstractWidget
 {
     //Q_OBJECT
 public:
-    WeatherTodayWidget();
+    WeatherTodayWidget(QString name,int id);
+    WeatherTodayWidget(QString name,int id,QSize minSize,QSize maxSize,QSize curSize, QPoint position);
     ~WeatherTodayWidget();
-    void init() override;
+    void init(QWidget* parent) override;
     void deinit() override;
     QWidget* getWidget() override;
     void test();
