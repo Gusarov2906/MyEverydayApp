@@ -1,4 +1,4 @@
-#include "NewsWidget.h"
+#include "newswidget.h"
 #include "ui_NewsWidget.h"
 
 NewsWidget::NewsWidget(QWidget *parent) :

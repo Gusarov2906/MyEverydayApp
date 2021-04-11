@@ -1,4 +1,4 @@
-#include "TimeAndDateWidget.h"
+#include "timeanddatewidget.h"
 #include "ui_TimeAndDateWidget.h"
 
 TimeAndDateWidget::TimeAndDateWidget(QWidget *parent) :

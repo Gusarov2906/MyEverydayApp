@@ -1,4 +1,4 @@
-#include "CurrentExchangeRateWidget.h"
+#include "currentexchangeratewidget.h"
 #include "ui_CurrentExchangeRateWidgetui.h"
 
 CurrentExchangeRateWidget::CurrentExchangeRateWidget(QWidget *parent) :
