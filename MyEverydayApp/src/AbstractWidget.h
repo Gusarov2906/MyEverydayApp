@@ -13,6 +13,7 @@ public:
     virtual void init(QWidget* parents) = 0;
     virtual void deinit() = 0;
     virtual QWidget* getWidget() = 0;
+
 protected:
     QString name;
     int id;
