@@ -18,6 +18,7 @@ SOURCES += \
     newswidget.cpp \
     noteswidget.cpp \
     parser.cpp \
+    temperature.cpp \
     timeanddatewidget.cpp \
     weathertodaydata.cpp \
     weathertodaywidget.cpp \
@@ -32,6 +33,7 @@ HEADERS += \
     currentexchangeratewidget.h \
     dbworker.h \
     parser.h \
+    temperature.h \
     widgetspace.h \
     mainwindow.h \
     newswidget.h \

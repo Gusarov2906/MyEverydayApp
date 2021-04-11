@@ -5,6 +5,7 @@
 #include <QObject>
 #include <QSize>
 #include <QPoint>
+#include <QTime>
 
 class AbstractWidget: public QObject
 {
@@ -22,6 +23,7 @@ protected:
     QSize maxSize;
     QSize curSize;
     QPoint position;
+    QTime updateTime;
 };
 
 #endif // WIDGET_H
