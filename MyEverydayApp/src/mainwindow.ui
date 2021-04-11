@@ -109,7 +109,7 @@
            <item>
             <layout class="QGridLayout" name="gridLayout">
              <item row="0" column="0">
-              <widget class="QFrame" name="frame00">
+              <widget class="QWidget" name="widget00" native="true">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                  <horstretch>0</horstretch>
@@ -127,12 +127,6 @@
                  <width>500</width>
                  <height>500</height>
                 </size>
-               </property>
-               <property name="frameShape">
-                <enum>QFrame::StyledPanel</enum>
-               </property>
-               <property name="frameShadow">
-                <enum>QFrame::Raised</enum>
                </property>
                <layout class="QVBoxLayout" name="verticalLayout_5">
                 <property name="spacing">
@@ -153,85 +147,11 @@
                 <property name="bottomMargin">
                  <number>0</number>
                 </property>
-                <item>
-                 <widget class="QWidget" name="widget00" native="true">
-                  <property name="minimumSize">
-                   <size>
-                    <width>400</width>
-                    <height>400</height>
-                   </size>
-                  </property>
-                  <property name="maximumSize">
-                   <size>
-                    <width>400</width>
-                    <height>400</height>
-                   </size>
-                  </property>
-                  <property name="contextMenuPolicy">
-                   <enum>Qt::PreventContextMenu</enum>
-                  </property>
-                 </widget>
-                </item>
-               </layout>
-              </widget>
-             </item>
-             <item row="1" column="1">
-              <widget class="QFrame" name="frame11">
-               <property name="minimumSize">
-                <size>
-                 <width>400</width>
-                 <height>400</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>500</width>
-                 <height>500</height>
-                </size>
-               </property>
-               <property name="frameShape">
-                <enum>QFrame::StyledPanel</enum>
-               </property>
-               <property name="frameShadow">
-                <enum>QFrame::Raised</enum>
-               </property>
-               <layout class="QVBoxLayout" name="verticalLayout_9">
-                <property name="spacing">
-                 <number>0</number>
-                </property>
-                <property name="leftMargin">
-                 <number>0</number>
-                </property>
-                <property name="topMargin">
-                 <number>0</number>
-                </property>
-                <property name="rightMargin">
-                 <number>0</number>
-                </property>
-                <property name="bottomMargin">
-                 <number>0</number>
-                </property>
-                <item>
-                 <widget class="QWidget" name="widget11" native="true">
-                  <property name="minimumSize">
-                   <size>
-                    <width>400</width>
-                    <height>400</height>
-                   </size>
-                  </property>
-                  <property name="maximumSize">
-                   <size>
-                    <width>400</width>
-                    <height>400</height>
-                   </size>
-                  </property>
-                 </widget>
-                </item>
                </layout>
               </widget>
              </item>
              <item row="0" column="1">
-              <widget class="QFrame" name="frame01">
+              <widget class="QWidget" name="widget01" native="true">
                <property name="minimumSize">
                 <size>
                  <width>400</width>
@@ -243,12 +163,6 @@
                  <width>500</width>
                  <height>500</height>
                 </size>
-               </property>
-               <property name="frameShape">
-                <enum>QFrame::StyledPanel</enum>
-               </property>
-               <property name="frameShadow">
-                <enum>QFrame::Raised</enum>
                </property>
                <layout class="QVBoxLayout" name="verticalLayout_6">
                 <property name="spacing">
@@ -269,82 +183,11 @@
                 <property name="bottomMargin">
                  <number>0</number>
                 </property>
-                <item>
-                 <widget class="QWidget" name="widget01" native="true">
-                  <property name="minimumSize">
-                   <size>
-                    <width>400</width>
-                    <height>400</height>
-                   </size>
-                  </property>
-                  <property name="maximumSize">
-                   <size>
-                    <width>400</width>
-                    <height>400</height>
-                   </size>
-                  </property>
-                 </widget>
-                </item>
-               </layout>
-              </widget>
-             </item>
-             <item row="1" column="2">
-              <widget class="QFrame" name="frame12">
-               <property name="minimumSize">
-                <size>
-                 <width>400</width>
-                 <height>397</height>
-                </size>
-               </property>
-               <property name="maximumSize">
-                <size>
-                 <width>500</width>
-                 <height>500</height>
-                </size>
-               </property>
-               <property name="frameShape">
-                <enum>QFrame::StyledPanel</enum>
-               </property>
-               <property name="frameShadow">
-                <enum>QFrame::Raised</enum>
-               </property>
-               <layout class="QVBoxLayout" name="verticalLayout_10">
-                <property name="spacing">
-                 <number>0</number>
-                </property>
-                <property name="leftMargin">
-                 <number>0</number>
-                </property>
-                <property name="topMargin">
-                 <number>0</number>
-                </property>
-                <property name="rightMargin">
-                 <number>0</number>
-                </property>
-                <property name="bottomMargin">
-                 <number>0</number>
-                </property>
-                <item>
-                 <widget class="QWidget" name="widget12" native="true">
-                  <property name="minimumSize">
-                   <size>
-                    <width>400</width>
-                    <height>400</height>
-                   </size>
-                  </property>
-                  <property name="maximumSize">
-                   <size>
-                    <width>400</width>
-                    <height>400</height>
-                   </size>
-                  </property>
-                 </widget>
-                </item>
                </layout>
               </widget>
              </item>
              <item row="0" column="2">
-              <widget class="QFrame" name="frame02">
+              <widget class="QWidget" name="widget02" native="true">
                <property name="minimumSize">
                 <size>
                  <width>400</width>
@@ -356,12 +199,6 @@
                  <width>500</width>
                  <height>500</height>
                 </size>
-               </property>
-               <property name="frameShape">
-                <enum>QFrame::StyledPanel</enum>
-               </property>
-               <property name="frameShadow">
-                <enum>QFrame::Raised</enum>
                </property>
                <layout class="QVBoxLayout" name="verticalLayout_7">
                 <property name="spacing">
@@ -379,27 +216,11 @@
                 <property name="bottomMargin">
                  <number>0</number>
                 </property>
-                <item>
-                 <widget class="QWidget" name="widget02" native="true">
-                  <property name="minimumSize">
-                   <size>
-                    <width>400</width>
-                    <height>400</height>
-                   </size>
-                  </property>
-                  <property name="maximumSize">
-                   <size>
-                    <width>400</width>
-                    <height>400</height>
-                   </size>
-                  </property>
-                 </widget>
-                </item>
                </layout>
               </widget>
              </item>
              <item row="1" column="0">
-              <widget class="QFrame" name="frame10">
+              <widget class="QWidget" name="widget10" native="true">
                <property name="sizePolicy">
                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
                  <horstretch>0</horstretch>
@@ -418,12 +239,6 @@
                  <height>500</height>
                 </size>
                </property>
-               <property name="frameShape">
-                <enum>QFrame::StyledPanel</enum>
-               </property>
-               <property name="frameShadow">
-                <enum>QFrame::Raised</enum>
-               </property>
                <layout class="QVBoxLayout" name="verticalLayout_8">
                 <property name="spacing">
                  <number>0</number>
@@ -440,22 +255,72 @@
                 <property name="bottomMargin">
                  <number>0</number>
                 </property>
-                <item>
-                 <widget class="QWidget" name="widget10" native="true">
-                  <property name="minimumSize">
-                   <size>
-                    <width>400</width>
-                    <height>400</height>
-                   </size>
-                  </property>
-                  <property name="maximumSize">
-                   <size>
-                    <width>400</width>
-                    <height>400</height>
-                   </size>
-                  </property>
-                 </widget>
-                </item>
+               </layout>
+              </widget>
+             </item>
+             <item row="1" column="2">
+              <widget class="QWidget" name="widget12" native="true">
+               <property name="minimumSize">
+                <size>
+                 <width>400</width>
+                 <height>400</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>500</width>
+                 <height>500</height>
+                </size>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_10">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+               </layout>
+              </widget>
+             </item>
+             <item row="1" column="1">
+              <widget class="QWidget" name="widget11" native="true">
+               <property name="minimumSize">
+                <size>
+                 <width>400</width>
+                 <height>400</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>500</width>
+                 <height>500</height>
+                </size>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_9">
+                <property name="spacing">
+                 <number>0</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
                </layout>
               </widget>
              </item>
