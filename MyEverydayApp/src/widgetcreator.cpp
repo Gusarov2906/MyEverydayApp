@@ -1,4 +1,4 @@
-#include "WidgetCreator.h"
+#include "widgetcreator.h"
 
 
 WidgetCreator::WidgetCreator()

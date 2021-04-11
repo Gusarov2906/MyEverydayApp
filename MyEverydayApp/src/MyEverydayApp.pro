@@ -9,44 +9,50 @@ CONFIG += c++14
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    AbstractWidget.cpp \
-    CompanySharesWidget.cpp \
-    CurrentExchangeRateWidget.cpp \
-    NewsWidget.cpp \
-    NotesWidget.cpp \
-    TimeAndDateWidget.cpp \
-    WeatherTodayWidget.cpp \
-    WeatherWeeklyWidget.cpp \
-    WelcomeWidget.cpp \
-    WidgetCreator.cpp \
-    WidgetSpace.cpp \
+    abstractwidget.cpp \
+    companyshareswidget.cpp \
+    currentexchangeratewidget.cpp \
+    dbworker.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    newswidget.cpp \
+    noteswidget.cpp \
+    parser.cpp \
+    timeanddatewidget.cpp \
+    weathertodaydata.cpp \
+    weathertodaywidget.cpp \
+    weatherweeklywidget.cpp \
+    welcomewidget.cpp \
+    widgetcreator.cpp \
+    widgetspace.cpp
 
 HEADERS += \
-    AbstractWidget.h \
-    CompanySharesWidget.h \
-    CurrentExchangeRateWidget.h \
-    NewsWidget.h \
-    NotesWidget.h \
-    TimeAndDateWidget.h \
-    WeatherTodayWidget.h \
-    WeatherWeeklyWidget.h \
-    WelcomeWidget.h \
-    WidgetCreator.h \
-    WidgetSpace.h \
-    mainwindow.h
+    abstractwidget.h \
+    companyshareswidget.h \
+    currentexchangeratewidget.h \
+    dbworker.h \
+    parser.h \
+    widgetspace.h \
+    mainwindow.h \
+    newswidget.h \
+    noteswidget.h \
+    timeanddatewidget.h \
+    weathertodaydata.h \
+    weathertodaywidget.h \
+    weatherweeklywidget.h \
+    welcomewidget.h \
+    widgetcreator.h
 
 FORMS += \
-    CompanySharesWidget.ui \
-    CurrentExchangeRateWidgetui.ui \
-    NewsWidget.ui \
-    NotesWidget.ui \
-    TimeAndDateWidget.ui \
-    WeatherTodayWidget.ui \
-    WeatherWeeklyWidget.ui \
-    WelcomeWidget.ui \
-    mainwindow.ui
+    companyshareswidget.ui \
+    currentechangeratewidgetui.ui \
+    mainwindow.ui \
+    newswidget.ui \
+    noteswidget.ui \
+    timeanddatewidget.ui \
+    weathertodaywidget.ui \
+    weatherweeklywidget.ui \
+    welcomewidget.ui
 
 TRANSLATIONS += \
     MyEverydayApp_en_GB.ts
@@ -57,4 +63,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 RESOURCES += \
-    Icons.qrc
+    database.qrc \
+    icons.qrc

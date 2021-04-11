@@ -1,4 +1,4 @@
-#include "CompanySharesWidget.h"
+#include "companyshareswidget.h"
 #include "ui_CompanySharesWidget.h"
 
 CompanySharesWidget::CompanySharesWidget(QWidget *parent) :

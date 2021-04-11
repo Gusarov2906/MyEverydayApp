@@ -3,7 +3,7 @@
 
 #include <QObject>
 #include <QWidget>
-#include "AbstractWidget.h"
+#include "abstractwidget.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class WeatherTodayWidget; }
@@ -20,7 +20,8 @@ public:
     void deinit() override;
     QWidget* getWidget() override;
     void test();
-private:
+protected:
+    void update() override;
     QWidget* widget;
     Ui::WeatherTodayWidget *ui;
 };

@@ -1,13 +1,13 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-#include "WeatherTodayWidget.h"
-#include "WelcomeWidget.h"
-#include "NotesWidget.h"
-#include "TimeAndDateWidget.h"
-#include "CompanySharesWidget.h"
-#include "WeatherWeeklyWidget.h"
-#include "WidgetCreator.h"
-#include "WidgetSpace.h"
+#include "weathertodaywidget.h"
+#include "welcomewidget.h"
+#include "noteswidget.h"
+#include "timeanddatewidget.h"
+#include "companyshareswidget.h"
+#include "weatherweeklywidget.h"
+#include "widgetcreator.h"
+#include "widgetspace.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow)

@@ -1,4 +1,4 @@
-    #include "WeatherTodayWidget.h"
+#include "weathertodaywidget.h"
 #include "ui_WeatherTodayWidget.h"	
 #include <unistd.h>
 
@@ -40,6 +40,11 @@ void WeatherTodayWidget::deinit()
 QWidget* WeatherTodayWidget::getWidget()
 {
     return widget;
+}
+
+void WeatherTodayWidget::update()
+{
+
 }
 
 WeatherTodayWidget::~WeatherTodayWidget()

@@ -1,4 +1,4 @@
-#include "WidgetSpace.h"
+#include "widgetspace.h"
 
 WidgetSpace::WidgetSpace()
 {

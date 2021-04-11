@@ -1,7 +1,7 @@
 #ifndef WIDGETCREATOR_H
 #define WIDGETCREATOR_H
 
-#include "WeatherTodayWidget.h"
+#include "weathertodaywidget.h"
 #include <memory>
 
 class WidgetCreator

@@ -1,4 +1,4 @@
-#include "NotesWidget.h"
+#include "noteswidget.h"
 #include "ui_NotesWidget.h"
 
 NotesWidget::NotesWidget(QWidget *parent) :

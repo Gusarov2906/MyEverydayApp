@@ -1,4 +1,4 @@
-#include "WeatherWeeklyWidget.h"
+#include "weatherweeklywidget.h"
 #include "ui_WeatherWeeklyWidget.h"
 
 WeakherWeeklyWidget::WeakherWeeklyWidget(QWidget *parent) :

@@ -1,7 +1,7 @@
 #ifndef WIDGETSPACE_H
 #define WIDGETSPACE_H
 #include <QVector>
-#include <AbstractWidget.h>
+#include <abstractwidget.h>
 
 class WidgetSpace
 {
