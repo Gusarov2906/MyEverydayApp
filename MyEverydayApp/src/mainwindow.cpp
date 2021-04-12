@@ -13,7 +13,23 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+
     WidgetSpace wd;
+//    this->setCentralWidget(wd)
+//    plugins.load()
+//            name()
+//    for(plugin)
+
+
+//    wd.addWidget(widgetCreator.createWeatherTodayWidget("Wid1"));
+//    {
+//        init
+//                w = widget->getWiget()
+//                w->reparent(ui->widget00)
+
+//    }
+
     WidgetCreator widgetCreator;
     WeatherTodayWidget* tmp = widgetCreator.createWeatherTodayWidget("Wid1");
     wd.widgets.append((tmp));

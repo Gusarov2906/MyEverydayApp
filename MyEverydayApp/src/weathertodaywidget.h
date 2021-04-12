@@ -4,8 +4,7 @@
 #include <QObject>
 #include <QWidget>
 #include "abstractwidget.h"
-#include "weathertodaydata.h"
-#include "parser.h"
+#include "weathertodaywidgetcontroller.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class WeatherTodayWidget; }
@@ -22,13 +21,13 @@ public:
     void init(QWidget* parent) override;
     void deinit() override;
     QWidget* getWidget() override;
-protected:
-    void update() override;
 
-    WeatherTodayData weatherTodayData;
+public slots:
+    void update(WeatherTodayData weatherTodayData);
+
+protected:
     QWidget* widget;
     Ui::WeatherTodayWidget *ui;
-    Parser parser;
 };
 
 #endif // WEATHERTODAYWIDGET_H

@@ -16,7 +16,6 @@ public:
     virtual QWidget* getWidget() = 0;
 
 protected:
-    virtual void update(){};
     QString name;
     int id;
     QSize minSize;

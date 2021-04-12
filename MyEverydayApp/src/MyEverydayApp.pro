@@ -22,6 +22,7 @@ SOURCES += \
     timeanddatewidget.cpp \
     weathertodaydata.cpp \
     weathertodaywidget.cpp \
+    weathertodaywidgetcontroller.cpp \
     weatherweeklywidget.cpp \
     welcomewidget.cpp \
     widgetcreator.cpp \
@@ -34,6 +35,7 @@ HEADERS += \
     dbworker.h \
     parser.h \
     temperature.h \
+    weathertodaywidgetcontroller.h \
     widgetspace.h \
     mainwindow.h \
     newswidget.h \
