@@ -52,16 +52,16 @@ WeatherTodayWidget::~WeatherTodayWidget()
 
 void WeatherTodayWidget::update(WeatherTodayData weatherTodayData)
 {
-    ui->locationLabel->setText(weatherTodayData.curLocation);
-    ui->nowTempLabel->setText(weatherTodayData.curTemperature.getString());
-    ui->timeLabel->setText("На момент обновления: " + weatherTodayData.curTime.toString());
-    ui->descriptionLabel->setText(weatherTodayData.description);
-    ui->feelsLikeLabel->setText(weatherTodayData.feelingTemperature.getString());
-    ui->humidityValueLabel->setText(weatherTodayData.humidity);
-    ui->preasureValueLabel->setText(weatherTodayData.preassure);
-    ui->tempLabel1->setText(weatherTodayData.temperatureAt3.getString());
-    ui->tempLabel2->setText(weatherTodayData.temperatureAt9.getString());
-    ui->tempLabel3->setText(weatherTodayData.temperatureAt15.getString());
-    ui->tempLabel4->setText(weatherTodayData.temperatureAt21.getString());
+    ui->locationLabel->setText(weatherTodayData.getCurLocation());
+    ui->nowTempLabel->setText(weatherTodayData.getCurTemperature().getString());
+    ui->timeLabel->setText("На момент обновления: " + weatherTodayData.getCurTime().toString());
+    ui->descriptionLabel->setText(weatherTodayData.getDescription());
+    ui->feelsLikeLabel->setText(weatherTodayData.getFeelingTemperature().getString());
+    ui->humidityValueLabel->setText(weatherTodayData.getHumidity());
+    ui->preasureValueLabel->setText(weatherTodayData.getPreassure());
+    ui->tempLabel1->setText(weatherTodayData.getTemperatureAt3().getString());
+    ui->tempLabel2->setText(weatherTodayData.getTemperatureAt9().getString());
+    ui->tempLabel3->setText(weatherTodayData.getTemperatureAt15().getString());
+    ui->tempLabel4->setText(weatherTodayData.getTemperatureAt21().getString());
 }
 
